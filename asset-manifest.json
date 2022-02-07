@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.3cd79dd7.css",
+    "main.js": "/memory-card/static/js/main.eb29431f.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/poke-12.png": "/memory-card/static/media/poke-12.e8dfba9270b5c3965ff5.png",
+    "static/media/poke-6.png": "/memory-card/static/media/poke-6.db39220b1fac3e5873d8.png",
+    "static/media/poke-7.png": "/memory-card/static/media/poke-7.c673cdd2dc49d1f205a6.png",
+    "static/media/poke-9.png": "/memory-card/static/media/poke-9.dbd6a62604681846f42f.png",
+    "static/media/pokeball-icon.png": "/memory-card/static/media/pokeball-icon.4b630f4de004fae3f667.png",
+    "static/media/poke-5.png": "/memory-card/static/media/poke-5.7479910fd60cc6d0319a.png",
+    "static/media/poke-1.png": "/memory-card/static/media/poke-1.e00997e5e2c4f2999380.png",
+    "static/media/poke-13.png": "/memory-card/static/media/poke-13.ac136bfc6513361576bf.png",
+    "static/media/poke-2.png": "/memory-card/static/media/poke-2.ca9edc131cb49b18ad59.png",
+    "static/media/poke-3.png": "/memory-card/static/media/poke-3.d6fc2dde04821d8f6e1c.png",
+    "static/media/poke-10.png": "/memory-card/static/media/poke-10.f5e6f5b3a6226d935cdf.png",
+    "static/media/poke-11.png": "/memory-card/static/media/poke-11.5e0e5634d8068aaa6bbd.png",
+    "static/media/poke-4.png": "/memory-card/static/media/poke-4.55f6f81a41e3378380a2.png",
+    "static/media/poke-8.png": "/memory-card/static/media/poke-8.d03bde0e739f7b07f32a.png",
+    "static/media/logo.png": "/memory-card/static/media/logo.70706317976000c09e6c.png",
+    "index.html": "/memory-card/index.html",
+    "main.3cd79dd7.css.map": "/memory-card/static/css/main.3cd79dd7.css.map",
+    "main.eb29431f.js.map": "/memory-card/static/js/main.eb29431f.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cd79dd7.css",
+    "static/js/main.eb29431f.js"
+  ]
+}
