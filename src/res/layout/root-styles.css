@@ -1,0 +1,13 @@
+:root {
+	--darkColor: rgb(40 44 52);
+	--bodyColor: rgb(62 68 81);
+	--blackColor: rgb(0 0 0);
+	--iconColor: #ffe031;
+	--redColor: #a62727;
+	--bodyColor: rgb(62 68 81);
+	--infoTxtColor: #b8860b;
+	--cubicAnimation: cubic-bezier(0, 0.45, 1, 0.99);
+	--scoreColor: #ffb5b5;
+	--bestScoreColor: #b5ffb5;
+	--blueColor: #396bba;
+}

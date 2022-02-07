@@ -1,0 +1,62 @@
+@import "./root-styles.css";
+
+.footer {
+	background-color: var(--darkColor);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-top: outset 2px var(--blackColor);
+}
+.footer div:first-child {
+	font-weight: 900;
+	font-family: cursive;
+	font-size: 12px;
+	color: var(--redColor);
+	text-shadow: black 4px 3px 2px;
+
+	animation: fadeIn 700ms var(--cubicAnimation);
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	animation: fadeIn 700ms var(--cubicAnimation);
+}
+.theIcon {
+	color: var(--iconColor);
+	font-size: 18px;
+	box-shadow: black 2px 2px 2px;
+}
+
+.theIcon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+/* Keyframe for animation */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.25;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	75% {
+		opacity: 0.6;
+	}
+	85% {
+		opacity: 0.7;
+	}
+	95% {
+		opacity: 0.8;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,158 @@
+@import "../layout/root-styles.css";
+
+.infoIcon {
+	position: absolute;
+	color: var(--infoTxtColor);
+	top: 10%;
+	left: 92%;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-family: -webkit-pictograph;
+	border: none;
+	padding: 2px 10px;
+	border-radius: 10px;
+	text-shadow: black 1px 1px 1px;
+	background-color: var(--bodyColor);
+	opacity: 0;
+	animation: fadeIn 700ms var(--cubicAnimation) 700ms forwards;
+}
+
+.infoIcon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.infoPage {
+	background-color: rgb(0 0 0 / 0.8);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-evenly;
+	opacity: 0;
+	animation: fadeIn 500ms var(--cubicAnimation) forwards;
+}
+
+.listCntainer {
+	color: var(--infoTxtColor);
+	text-shadow: black 2px 2px 2px;
+	font-weight: 900;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.close-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.close-btn button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	font-size: 20px;
+	color: var(--iconColor);
+	letter-spacing: 2px;
+	font-family: system-ui;
+	text-shadow: black 2px 2px 2px;
+	background-color: var(--bodyColor);
+	border-radius: 15px;
+	border-color: var(--darkColor);
+	padding: 2px 20px;
+}
+.close-btn :hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.maker-info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--redColor);
+	text-shadow: black 2px 2px 2px;
+	font-weight: 900;
+	font-family: cursive;
+}
+.maker-info:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+/* keyframe */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.25;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	75% {
+		opacity: 0.75;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* mediaQuerys */
+/*iphone SE and other devices*/
+@media only screen and (max-width: 375px) {
+	.infoIcon {
+		left: 80%;
+		top: 13%;
+	}
+}
+
+/*iphone XR, iphone 12 PRO, pixel 5, galaxy 20 Ultra*/
+@media only screen and (device-width: 414px) and (device-height: 896px),
+	only screen and (device-width: 390px) and (device-height: 844px),
+	only screen and (device-width: 393px) and (device-height: 851px),
+	only screen and (device-width: 412px) and (device-height: 915px) {
+	.infoIcon {
+		left: 80%;
+		top: 10%;
+	}
+}
+
+/*ipad Air, ipad Mini, Surface PRO*/
+@media only screen and (device-width: 820px) and (device-height: 1180px),
+	only screen and (device-width: 768px) and (device-height: 1024px),
+	only screen and (device-width: 912px) and (device-height: 1368px) {
+	.infoIcon {
+		top: 4.5%;
+		left: 80%;
+	}
+}
+/* Surface Duo */
+@media only screen and (device-width: 540px) and (device-height: 720px) {
+	.infoIcon {
+		top: 7%;
+		left: 85%;
+	}
+}
+/* galaxy Fold */
+@media only screen and (max-width: 280px) {
+	.infoIcon {
+		top: 11%;
+		left: 75%;
+	}
+}
+/* galax A51/71 */
+@media only screen and (device-width: 412px) and (device-height: 914px) {
+	.infoIcon {
+		left: 79%;
+	}
+}
