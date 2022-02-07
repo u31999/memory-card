@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.3cd79dd7.css",
-    "main.js": "/memory-card/static/js/main.eb29431f.js",
-    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "main.css": "/memory-card/static/css/main.0aa7cd33.css",
+    "main.js": "/memory-card/static/js/main.a4726280.js",
+    "static/js/787.86f88a94.chunk.js": "/memory-card/static/js/787.86f88a94.chunk.js",
     "static/media/poke-12.png": "/memory-card/static/media/poke-12.e8dfba9270b5c3965ff5.png",
     "static/media/poke-6.png": "/memory-card/static/media/poke-6.db39220b1fac3e5873d8.png",
     "static/media/poke-7.png": "/memory-card/static/media/poke-7.c673cdd2dc49d1f205a6.png",
@@ -19,12 +19,12 @@
     "static/media/poke-8.png": "/memory-card/static/media/poke-8.d03bde0e739f7b07f32a.png",
     "static/media/logo.png": "/memory-card/static/media/logo.70706317976000c09e6c.png",
     "index.html": "/memory-card/index.html",
-    "main.3cd79dd7.css.map": "/memory-card/static/css/main.3cd79dd7.css.map",
-    "main.eb29431f.js.map": "/memory-card/static/js/main.eb29431f.js.map",
-    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+    "main.0aa7cd33.css.map": "/memory-card/static/css/main.0aa7cd33.css.map",
+    "main.a4726280.js.map": "/memory-card/static/js/main.a4726280.js.map",
+    "787.86f88a94.chunk.js.map": "/memory-card/static/js/787.86f88a94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cd79dd7.css",
-    "static/js/main.eb29431f.js"
+    "static/css/main.0aa7cd33.css",
+    "static/js/main.a4726280.js"
   ]
 }
