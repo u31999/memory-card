@@ -85,14 +85,17 @@ const Body = () => {
                         setIsItIn(true);
                         clickedPoke.splice(i, 1);
                     }
+                    
                 }
             }
-            if(isItin === true) {
+            if(isItin === false) {
                 setScore(score += 1);
                 
-            }else {
+            }
+            if(isItin === true){
                 setScore( score -= 1);
                 setIsItIn(false);
+
             }
           
 
